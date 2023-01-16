@@ -1,0 +1,58 @@
+.stake-dkeeper {
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  &__content {
+    width: 500px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+    padding: 3rem 0;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    button {
+      border-radius: 20px;
+      padding: 0.5rem 3rem;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #3535f0 !important;
+    }
+  }
+
+  &__amount {
+    border-radius: 12px;
+    border: 1px solid #3535f0;
+    color: #3535f0;
+    font-size: 2.5rem;
+    padding: 0.5rem 3rem;
+    margin: 2rem 0;
+  }
+
+  button {
+    border-radius: 20px;
+    padding: 0.5rem 3rem;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+  }
+
+  a {
+    text-decoration: underline !important;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}

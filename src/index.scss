@@ -1,0 +1,81 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800';
+@import 'https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto';
+  background-color: white;
+}
+* {
+  // font-family: "Roboto";
+}
+
+iframe {
+  pointer-events: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  position: relative;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  button {
+    background-color: #3535f0;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 16px;
+
+    &.primary {
+      background-color: #3535f0 !important;
+    }
+
+    &.secondary {
+      background-color: black !important;
+    }
+
+    &.outline {
+      background-color: transparent !important;
+    }
+  }
+}

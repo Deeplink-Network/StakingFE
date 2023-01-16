@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__text {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    color: #3535f0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 3rem;
+
+    svg {
+      width: auto;
+      height: 12px;
+    }
+
+    span {
+      margin-right: 4px;
+    }
+  }
+}
